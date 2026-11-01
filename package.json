@@ -1,0 +1,16 @@
+{
+  "name": "pro-battle-royale-server",
+  "version": "1.0.0",
+  "private": true,
+  "description": "WebSocket multiplayer presence and movement server for PRO BATTLE ROYALE",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "ws": "^8.18.0"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
